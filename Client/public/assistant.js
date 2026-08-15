@@ -44,7 +44,7 @@
             </div>
 
             <h2 class="shifra-title">
-                Hello! I'm Shifra AI
+                Hello! I'm Aira AI
             </h2>
 
             <p class="shifra-sub">

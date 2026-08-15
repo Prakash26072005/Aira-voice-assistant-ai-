@@ -7,6 +7,7 @@ import cookieParser from "cookie-parser";
 import cors from "cors"
 import userRouter from "./Routes/user.routes.js";
 import assistantRouter from "./Routes/assistant.route.js";
+import billingRouter from "./Routes/billing.route.js";
 
 const app = express();
 const privateCors=cors({
@@ -28,8 +29,9 @@ app.use(cors({
 app.use(express.json())
 app.use(cookieParser())
 
-app.use("/api/auth",privateCors,authRouter)
-app.use("/api/user",privateCors,userRouter)
+app.use("/api/auth",privateCors,authRouter);
+app.use("/api/user",privateCors,userRouter);
+app.use("/api/billing",privateCors,billingRouter);
 app.use("/api/assistant", publicCors,assistantRouter);
 
 const PORT=process.env.PORT;

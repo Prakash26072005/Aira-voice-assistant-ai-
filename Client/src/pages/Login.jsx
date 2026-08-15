@@ -19,7 +19,7 @@ function Login  ({setUser}) {
 
       const res=await axios.post(ServerUrl+"/api/auth/google",{name:displayName, email},{withCredentials:true})
         toast.success("Login Successfully")
-    navigate("/")
+    navigate("/", { replace: true });
     }catch(error){
     console.log(error)
     toast.error("Login Failed...")
