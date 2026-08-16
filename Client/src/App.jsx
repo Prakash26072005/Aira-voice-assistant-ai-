@@ -13,7 +13,7 @@ import Billing from './pages/Billing'
 import { Toaster } from "react-hot-toast"
 
 export const ServerUrl = "https://airavoice.onrender.com"
-export const CLIENT_URL = "http://localhost:5173"
+export const CLIENT_URL = "https://aira-voice-assistant-ai.onrender.com"
 
 function App() {
   const [user,setUser]= useState(null)
