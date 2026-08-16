@@ -12,7 +12,7 @@ import Navbar from './Components/Navbar'
 import Billing from './pages/Billing'
 import { Toaster } from "react-hot-toast"
 
-export const ServerUrl = "http://localhost:8000"
+export const ServerUrl = "https://airavoice.onrender.com"
 export const CLIENT_URL = "http://localhost:5173"
 
 function App() {
