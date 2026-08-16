@@ -102,7 +102,7 @@
 
     button.innerHTML = `
     <img 
-    src="https://aira-voice-assistant-ai.onrender.comAira.png"
+    src="https://aira-voice-assistant-ai.onrender.com/Aira.png"
     alt="logo"
     />`;
     document.body.appendChild(button)
