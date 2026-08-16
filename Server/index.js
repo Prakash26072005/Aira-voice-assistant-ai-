@@ -22,7 +22,7 @@ const publicCors=cors({
 })
 
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://aira-voice-assistant-ai.onrender.com",
     credentials:true
 }))
 
