@@ -18,7 +18,7 @@
 
     link.rel = "stylesheet"
 
-    link.href = "http://localhost:5173/assistant.css"
+    link.href = "https://aira-voice-assistant-ai.onrender.com/assistant.css"
 
     document.head.appendChild(link)
 
@@ -83,7 +83,7 @@
             <button class="shifra-mic">
 
                <img 
-               src="http://localhost:5173/image.png"
+               src="https://aira-voice-assistant-ai.onrender.com/image.png"
                alt="mic"
                class="shifra-mic-icon"/>
             </button>
@@ -102,7 +102,7 @@
 
     button.innerHTML = `
     <img 
-    src="http://localhost:5173/Aira.png"
+    src="https://aira-voice-assistant-ai.onrender.comAira.png"
     alt="logo"
     />`;
     document.body.appendChild(button)
